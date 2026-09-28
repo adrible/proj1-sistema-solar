@@ -27,8 +27,8 @@ from graphics import (
 
 
 BASE_DIR = Path(__file__).resolve().parent
-ASSETS = BASE_DIR / "assets"
-SHADER_FILE = BASE_DIR / "shaders" / "solar.wgsl"
+ASSETS = BASE_DIR
+SHADER_FILE = BASE_DIR / "solar.wgsl"
 
 
 # ============================================================
